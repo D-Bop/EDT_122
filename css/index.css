@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: brown;
+}
+a:hover {
+    color: #f78d2d;
+}
+
+/* ul{
+    list-style: none;
+    color: black;
+} */
+
+.btn:hover {
+    background-color: #fff;
+}
+
+/* navbar */
+.nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-bar > ul {
+    list-style: none;
+    /* color: #f78d2d; */
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links a{
+    margin: 0 20px;
+    color: #fff;
+}
+.nav-links a:hover {
+    color: #f78d2d;
+}
+
+.STE {
+    width: 30vw;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 13% 87%;
+}
+
+.STE > img {
+    border-radius: 50%;
+}
+.STE > h3 {
+    margin-top: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/*  STYLING THE HEADER */
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Assets/lasu-lasu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .7);
+}
+.header-content {
+    margin-top: 250px;
+    text-align: center;
+    /* color: black; */
+    
+}
+.header-content > .btn {
+    width: 10vw;
+    justify-self: center;
+    align-items: center;
+    margin: auto;
+}
+.btn > a {
+    color: #fff;
+}
+.btn > a:hover {
+    color: #f78d2d;
+}
+.header-content > h1 {
+    color: #f78d2d;
+    font-weight: bolder;
+    font-size: 7em;
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+.header-content > h2 {
+    color: #f78d2d;
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.line {
+    width: 150px;
+    height: 4px;
+    background: #f78d2d;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 5px 6px;
+    background-color: #f78d2d;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-content > .learn-more {
+    padding: 5px 6px;
+}
+
+.header-content > a {
+    margin-top: 1000px;
+}
+
+section {
+    margin-top: 15px;
+}
+.title > h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #f78d2d;
+}
+
+.course-outline {
+    justify-self: center;
+    align-items: center;
+    margin: auto;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
+.course-content {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(1, 5% 95%);
+    background-color: #f78d2d;
+    grid-gap: 2em;
+    border-radius: 7px;
+}
+
+.numbers {
+    background-color: #fff;
+    color: #f78d2d;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+.center-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rice > h4 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.rice > ul {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-name > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.students > h3 {
+    color: #f78d2d;
+    text-align: center;
+    font-size: 4em;
+    margin-top: 0.5em;
+}
+.students-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 3em;
+    width: 70vw;
+    /* justify-self: center;
+    align-items: center; */
+    margin: auto;
+    padding: 1em;
+}
+
+.text {
+    background-color: #f78d2d;
+    padding: 0.5em;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px #f78d2d;
+}
+
+.text:hover {
+    transform: scale(1.1);
+}
+.text > p {
+    line-height: 1.5em;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.image-name {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 18% 82%;
+    /* background-color: black; */
+}
+
+.student-name {
+    margin-top: 1.5em;
+    /* background-color: blue; */
+}
+
+.student-name > h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+.student-name > h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.journey > .btn {
+    width: 20vw;
+    /* background-color: black; */
+    margin: 50px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.journey > .btn:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #f78d2d;;
+}
+
+footer {
+    padding-top: 5em;
+    padding-bottom: 2em;
+    background-color: #f78d2d;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+}
+
+footer > h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+footer > p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}

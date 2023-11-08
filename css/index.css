@@ -1,9 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 body {
+    width: 100%;
     overflow-x: hidden;
 }
 a {
@@ -71,7 +72,7 @@ a:hover {
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url("../Assets/lasu-lasu.jpg");
+    background-image: url("../Assets/Images/lasu-lasu.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -295,4 +296,45 @@ footer > p {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+
+.error {
+    background-color: #f78d2d;
+}
+
+.error-body > h1 {
+    margin-top: 0.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 10em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.error-body > h2 {
+    margin-top: 0.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.error > P {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+.error > p > a {
+    color: #fff;
+}
+.error > p > a:hover {
+    color: #f78d2d;
+    background-color: #fff;
+    padding: 0.5em;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px #fff;
+}
+
+@media screen and (max-width:480px) {
+    .body {
+        width: 100vw;
+    }
 }

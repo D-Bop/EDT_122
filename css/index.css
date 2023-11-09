@@ -418,9 +418,12 @@ footer > p {
         width: 60px;
     }
     .image-name {
-        grid-template-columns: 18% 82%;
+        grid-template-columns: 20% 80%;
     }
     .student-name > h5 {
         font-size: 0.7em;
+    }
+    .student-name > h6 {
+        font-weight: light;
     }
 }

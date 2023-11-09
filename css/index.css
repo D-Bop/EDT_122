@@ -380,4 +380,15 @@ footer > p {
     .header-content > .btn {
         width: 30vw;
     }
+    .students > h3 {
+        font-size: 1.5em;
+    }
+    .journey > .btn {
+        width: 70vw;
+    }
+
+    .students-grid {
+        display: flex;
+        flex-direction: column;
+    }
 }

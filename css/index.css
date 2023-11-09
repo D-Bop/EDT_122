@@ -353,8 +353,12 @@ footer > p {
         width: 100vw;
     }
     .course-outline {
+        /* width: 90vw; */
         display: flex;
         flex-direction: column;
+    }
+    .course-content {
+        width: 90vw;
     }
     .STE {
         display: grid;
@@ -380,6 +384,9 @@ footer > p {
     .header-content > .btn {
         width: 30vw;
     }
+    .title > h1 {
+        font-size: 3em;
+    }
     .students > h3 {
         font-size: 1.5em;
     }
@@ -402,15 +409,16 @@ footer > p {
         height: 70vh;
         width: 100%;
     }
+    
     .text {
-        width: 80vw;
+        width: 90vw;
     }
     .image-name > img {
         height: 60px;
         width: 60px;
     }
     .image-name {
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 18% 82%;
     }
     .student-name > h5 {
         font-size: 0.7em;

@@ -1,8 +1,15 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* width: 100vw; */
 }
+
+html {
+    overflow-x: hidden;
+}
+
+
 body {
     width: 100%;
     overflow-x: hidden;
@@ -333,8 +340,20 @@ footer > p {
     box-shadow: 2px 2px 2px #fff;
 }
 
-@media screen and (max-width:480px) {
-    .body {
+@media screen and (max-width: 762px) {
+    .overlay {
         width: 100vw;
+    }
+
+    body {
+        width: 100vw;
+        background-color: blue;
+    }
+    .overlay {
+        width: 100vw;
+    }
+    .course-outline {
+        display: flex;
+        flex-direction: column;
     }
 }

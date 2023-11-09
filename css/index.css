@@ -347,7 +347,7 @@ footer > p {
 
     body {
         width: 100vw;
-        background-color: blue;
+        /* background-color: blue; */
     }
     .overlay {
         width: 100vw;
@@ -355,5 +355,19 @@ footer > p {
     .course-outline {
         display: flex;
         flex-direction: column;
+    }
+    .STE {
+        display: grid;
+        grid-template-columns: 11% 89%;
+        width: 70vw;
+        margin-left: 5px;
+    }
+    .STE > img {
+        height: 27px;
+        width: 27px;
+    }
+    .STE > h3 {
+        color: #fff;
+        font-size: 10px;
     }
 }

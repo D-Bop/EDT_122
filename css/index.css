@@ -370,4 +370,14 @@ footer > p {
         color: #fff;
         font-size: 10px;
     }
+
+    .header-content > h1 {
+        font-size: 3em;
+    }
+    .header-content > h2 {
+        font-size: 2em;
+    }
+    .header-content > .btn {
+        width: 30vw;
+    }
 }

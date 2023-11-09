@@ -390,5 +390,29 @@ footer > p {
     .students-grid {
         display: flex;
         flex-direction: column;
+        align-items: center;
+    }
+    header{
+        width: 100vw;
+        height: 70vh;
+    }
+    
+    .overlay {
+        position: absolute;
+        height: 70vh;
+        width: 100%;
+    }
+    .text {
+        width: 80vw;
+    }
+    .image-name > img {
+        height: 60px;
+        width: 60px;
+    }
+    .image-name {
+        grid-template-columns: 20% 80%;
+    }
+    .student-name > h5 {
+        font-size: 0.7em;
     }
 }
